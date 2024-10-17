@@ -20,9 +20,11 @@ const Navbar = () => {
     return (
         <>
         <nav>
+            <Link to="/">
             <div className="logo">
                 <img src="logo.svg" alt="Logo Image" />
             </div>
+            </Link>
             <div className="hamburger" onClick={()=>ToggleNavBar()}>
                 <div className="line1"></div>
                 <div className="line2"></div>

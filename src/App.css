@@ -20,7 +20,33 @@ a {
   color: inherit;
 }
 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
 section{
   height: 100vh;
+}
+
+section:first-of-type{
   padding-top: 100px;
+}
+
+.Hero{
+  background-image: url('https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694072.jpg?t=st=1726566914~exp=1726570514~hmac=07a61e3cc23d2fefb607946f1eb6634dc23a4d3af4ce2f1ee083a990cc94130e&w=2000');
+  background-size: cover;
+}
+
+section div img{
+  width: 80%;
+  margin: 1rem 0px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
